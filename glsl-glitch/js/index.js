@@ -179,7 +179,7 @@ var init = function init() {
   cameraBack.position.set(0, 0, 100);
   cameraBack.lookAt(new THREE.Vector3());
 
-  bgImg.init('http://www.tplh.net/file/osaka01.jpg', function () {
+  bgImg.init('https://ci-prod.imgix.net/upload/galeriadeimagens/00206861.jpg', function () {
     sceneBack.add(bgImg.obj);
     scene.add(postEffect.obj);
   });
